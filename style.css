@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin: 100px auto;
+    padding: 40px;
+    width: 400px;
+    background-color:darkslategray ;
+    border-radius: 8px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+form input{
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: gold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 100px;
+
+}
+button:hover{
+    background-color: cornsilk;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.register{
+    margin: 15px auto;
+    padding: 40px;
+    width: 900px;
+    background-color: #1bbdbd;
+    border-radius: 15%;
+
+}
+.register input, #course{
+    margin-left: 45px;
+    padding: 10px 5px;
+    width: 40%;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f9f5f5;
+}
+#fname, #email, #course, #city{
+    float: left;
+}
+
+
+.register textarea{
+    width: 85%;
+    height: 100px;
+    margin-left: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.register button{
+    width: 120px;
+    height: 40px;
+    background-color: #525251;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 320px;
+}
